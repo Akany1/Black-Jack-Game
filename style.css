@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #e1e8ff;
+}
+
+header{
+    background-image:url("./images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fbfbfb;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.game-title-header{
+    padding: 40px;
+    text-shadow: 1px 2px 4px #090023;
+    font-size: 50px;
+}
+
+.scoreboard-wrapper{
+    border: 6px solid #fbfbfb;
+    border-radius: 20px;
+    color: #fbfbfb;
+    background: linear-gradient(#301271, #180d4e);
+    margin: 20px auto;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    line-height: 1.5;
+    max-width: 400px;
+}
+
+.scoreboard-teams{
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+    margin-bottom: 20px;
+}
+
+.title-team{
+    margin: 10px auto 20px auto;
+}
+
+.team-side{
+    font-size: 34px;
+}
+
+.team-name{
+    font-size: 14px;
+    color: aqua;
+    font-weight: 400;
+}
+
+.scorebox{
+    background-color: #03003c;
+    color: #fbfbfb;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.scores{
+    font-size: 50px;
+    color: #ff3c5d;
+    padding: 4px 0;
+}
+
+.pad-button-wrapper{
+    margin: 16px 4px 0 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn{
+    border: 2px solid #4686ff;
+    color: #c0d6ff;
+    font-weight: 500;
+    border-radius: 4px;
+    padding: 4px 8px;
+    margin: 2px 4px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: #4686ff;
+    color: #fbfbfb;
+}
+
+.period-wrapper{
+    margin: 0 10px 56px 10px;
+}
+
+.period{
+    background-color: #03003c;
+    color: #fbfbfb;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    padding: 6px 20px;
+    color: #ffc400;
+}
+
+.period-title{
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.button{
+    background-color: aqua;
+    color: #090023;
+    border: none;
+    font-size: 16px;
+    font-weight: 800;
+    padding: 10px 20px;
+}
+
+.button:hover{
+    background-color: #090023;
+    color: aqua;
+}
+
+.button-sec{
+    color: #ffc400;
+    background: none;
+    border: 1px solid #ffc400;
+}
+
+.button-sec:hover{
+    background-color: #0900239c;
+    color: #ffc400;
+}
+

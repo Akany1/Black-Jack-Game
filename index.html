@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Basketball Scoreboard</title>
+</head>
+<body>
+    <header>
+        <h1 class="game-title-header">BASKETBALL SCOREBOARD</h1>
+    </header>
+    <main class="scoreboard-wrapper">
+        <div class="scoreboard-teams">
+            <div class="home-team-scoreboard scoreboard">
+                <div class="title-team">
+                    <h2 class="team-side">HOME</h2>
+                    <h4 class="team-name">WARRIOR KINGS</h4>
+                </div>
+                <div class="scorebox">
+                    <h3 class="home-scores scores" id="home-scores-el">0</h3>
+                </div>
+                <div class="pad-button-wrapper">
+                    <div class="btn btn-one" onclick="addHomeScore(1)">+1</div>
+                    <div class="btn btn-two" onclick="addHomeScore(2)">+2</div>
+                    <div class="btn btn-three" onclick="addHomeScore(3)">+3</div>
+                </div>
+            </div>
+            <div class="period-wrapper">
+                <div class="period">
+                    <h2 class="content-period" id="period-el">0</h2>
+                </div>
+                <h4 class="period-title">Period</h4>
+            </div>
+            <div class="away-team-scoreboard scoreboard">
+                <div class="title-team">
+                    <h2 class="team-side">AWAY</h2>
+                    <h4 class="team-name">YANK SAINTS</h4>
+                </div>
+                <div class="scorebox">
+                    <h3 class="away-scores scores" id="away-scores-el">0<h3>
+                </div>
+                <div class="pad-button-wrapper">
+                    <div class="btn btn-one" onclick="addAwayScore(1)">+1</div>
+                    <div class="btn btn-two" onclick="addAwayScore(2)">+2</div>
+                    <div class="btn btn-three" onclick="addAwayScore(3)">+3</div>
+                </div>
+            </div>
+        </div>
+        <div class="button-wrapper">
+            <button class="button btn" onclick="newGame()">NEW GAME</button>
+            <button class="button button-sec btn" onclick="addPeriod()">ADD PERIOD</button>
+        </div>
+    </main>
+    
+    <!-- <h1 id="time">05:00</h1> -->
+    
+</body>
+<script src="index.js"></script>
+</html>
